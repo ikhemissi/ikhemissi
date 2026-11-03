@@ -1,43 +1,20 @@
 ### Hi, I'm Iheb 👋
 
-I design and deliver generative AI systems for large enterprises in regulated industries, and I build the agents, gateways, and platforms behind them.
+I'm a Cloud Solution Architect at Microsoft. I help large enterprises in regulated industries take generative AI from design to production.
 
-I'm a Cloud Solution Architect at Microsoft. My current focus is **agent governance**: how organisations observe, control, and audit AI agents that act across their systems.
+I'm most interested in what it takes to run AI agents responsibly: how they're governed, how they act on a user's behalf, and how their decisions can be checked. Outside customer work, I build samples, run experiments, and write workshops to learn in the open and share what I find.
 
-**What I work on**
+#### Work I'm proud of
 
-- **Agents and interoperability:** MCP servers, A2A agents, hosted and prompt-based agents
-- **AI gateways:** central model access, routing, authentication, and shared observability
-- **Enterprise GenAI:** retrieval over large document estates, and hybrid or on-premises deployment
-- **Engineering practice:** evaluations, CI/CD, telemetry, and cost tracking for AI systems
+- **Agent governance:** experiments measuring what Agent 365 actually governs over MCP tool gateways, on [API Management](https://github.com/ikhemissi/spike-agent365-apim-tools-gateway) and [LiteLLM](https://github.com/ikhemissi/spike-agent365-litellm-tools-gateway)
+- **Agent identity:** Foundry agents behind [agentgateway](https://github.com/ikhemissi/foundry-agent-with-agentgateway-gateway) and [LiteLLM](https://github.com/ikhemissi/foundry-agents-with-litellm-gateway), with the user's identity delegated through the agent and no shared keys
+- **Trustworthy AI decisions:** a [smart device platform](https://github.com/ikhemissi/smart-device-platform-sample) where code computes, models judge, and language models write, with every decision logged
+- **AI quality:** [newsloom](https://github.com/ikhemissi/newsloom), curated AI news for people and agents over MCP and A2A, with evaluation and cost tracking
+- **Developer tooling:** an [Azure Developer CLI extension](https://github.com/ikhemissi/azd-microsoft-discovery) in Go for Microsoft Discovery
+- **Workshops and talks:** hands-on labs on [integration](https://github.com/ikhemissi/azure-ipaas-workshop), [serverless](https://github.com/ikhemissi/serverless-workshop-demo), and [MOAW](https://moaw.dev); talks at Microsoft Ignite 2024, apidays Paris 2024, and Microsoft AI Tour
 
----
+#### Get in touch
 
-#### Projects
-
-| Project | What it is |
-|---|---|
-| [**newsloom**](https://github.com/ikhemissi/newsloom) | Curated AI news for people and AI agents. It ingests sources daily, then enriches and embeds items in PostgreSQL/pgvector. It serves them through an Entra-protected **MCP server** and an **A2A research agent** that gives cited answers. Python, Terraform, CI/CD, evaluation framework, telemetry, and cost tracking. |
-| [**foundry-agents-with-litellm-gateway**](https://github.com/ikhemissi/foundry-agents-with-litellm-gateway) | Foundry agents and LiteLLM integrated in both directions: unified model access through a central gateway, Entra authentication modes, and shared observability, with MCP and A2A backends behind the gateway. |
-| [**foundry-agent-with-agentgateway-gateway**](https://github.com/ikhemissi/foundry-agent-with-agentgateway-gateway) | Foundry agents behind agentgateway, with Entra ID–based model access. |
-| [**smart-device-platform-sample**](https://github.com/ikhemissi/smart-device-platform-sample) | An IoT platform with an AI agent that answers questions about live sensor data, flags anomalies, writes daily digests, and predicts maintenance needs. |
-
-#### Workshops
-
-I write hands-on workshops so other engineers can learn by building:
-
-- [Event-driven data processing with Azure integration services](https://github.com/ikhemissi/azure-ipaas-workshop)
-- [Serverless deep dive with Azure Functions](https://github.com/ikhemissi/serverless-workshop-demo)
-- Microsoft Product Hands-on Labs on [MOAW](https://moaw.dev), on Redis, intelligent apps with Azure OpenAI, platform engineering, and AKS
-
-#### Talks
-
-- **Microsoft Ignite 2024:** hands-on workshop, intelligent apps with Azure Functions, Azure OpenAI, and API Management
-- **apidays Paris 2024:** *Azure API Management as a GenAI Gateway*
-- **Microsoft AI Tour**, **Azure Innovation Day**
-
----
-
-[LinkedIn](https://www.linkedin.com/in/iheb-khemissi) · English, French, Arabic
+I'm happy to talk about agent governance, AI gateways, and enterprise GenAI. Reach me on [LinkedIn](https://www.linkedin.com/in/iheb-khemissi), or open an issue on any of the repos above.
 
 <sub>Personal projects and views are my own.</sub>
